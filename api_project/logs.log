@@ -1,0 +1,267 @@
+2024-02-15 10:14:18,260,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-15 10:14:18,260,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-02-15 10:14:18,260,werkzeug:INFO: * Restarting with stat
+2024-02-15 10:14:18,740,werkzeug:WARNING: * Debugger is active!
+2024-02-15 10:14:18,750,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-15 10:15:45,254,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:15:45,255,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:15:45] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:16:22,603,application:INFO:User requested a GET request for employee-id:1 
+2024-02-15 10:16:22,605,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:16:22,605,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:16:22] "GET /employee/1 HTTP/1.1" 200 -
+2024-02-15 10:16:53,114,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:16:53,115,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:16:53] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:16:59,459,application:INFO:User requested a POST request
+2024-02-15 10:17:00,512,application:INFO:Data put sucessfully into the database
+2024-02-15 10:17:00,514,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:17:00] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-02-15 10:17:03,424,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:17:03,425,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:17:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:17:19,099,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-15 10:17:19,100,application:INFO:Data is not present in the database
+2024-02-15 10:17:19,100,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:17:19] "[33mPUT /update_employee/7 HTTP/1.1[0m" 404 -
+2024-02-15 10:17:35,307,application:INFO:User requested a PUT request for employee-id:6 
+2024-02-15 10:17:35,687,application:INFO:Data updated sucessfully into the database
+2024-02-15 10:17:35,687,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:17:35] "PUT /update_employee/6 HTTP/1.1" 200 -
+2024-02-15 10:17:40,674,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:17:40,675,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:17:40] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:17:47,652,application:INFO:User requested a DELETE request for employee-id:8
+2024-02-15 10:17:47,653,application:INFO:Data is not present in the database
+2024-02-15 10:17:47,653,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:17:47] "[33mDELETE /remove_employee/8 HTTP/1.1[0m" 404 -
+2024-02-15 10:17:51,525,application:INFO:User requested a DELETE request for employee-id:7
+2024-02-15 10:17:51,526,application:INFO:Data is not present in the database
+2024-02-15 10:17:51,527,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:17:51] "[33mDELETE /remove_employee/7 HTTP/1.1[0m" 404 -
+2024-02-15 10:17:55,516,application:INFO:User requested a DELETE request for employee-id:6
+2024-02-15 10:17:55,744,application:INFO:Data deleted sucessfully from the database
+2024-02-15 10:17:55,746,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:17:55] "DELETE /remove_employee/6 HTTP/1.1" 200 -
+2024-02-15 10:18:00,098,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:18:00,099,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:18:00] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:18:26,566,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:18:26,566,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:18:26] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:19:46,537,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:19:46,537,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:19:46] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:20:01,899,application:INFO:User requested a POST request
+2024-02-15 10:20:02,213,application:INFO:Data put sucessfully into the database
+2024-02-15 10:20:02,213,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:20:02] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-02-15 10:20:11,523,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:20:11,523,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:20:11] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:21:52,161,application:INFO:User requested a POST request
+2024-02-15 10:21:52,239,application:INFO:Data put sucessfully into the database
+2024-02-15 10:21:52,241,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:21:52] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-02-15 10:21:52,257,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:21:52,257,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:21:52] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:23:33,846,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:23:33,846,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:23:33] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:23:33,846,application:INFO:User requested a PUT request for employee-id:5 
+2024-02-15 10:23:33,846,application:INFO:Data updated sucessfully into the database
+2024-02-15 10:23:33,846,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:23:33] "PUT /update_employee/5 HTTP/1.1" 200 -
+2024-02-15 10:23:33,846,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:23:33,846,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:23:33] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:25:00,493,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:25:00,494,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:25:00] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:25:00,498,application:INFO:User requested a PUT request for employee-id:5 
+2024-02-15 10:25:00,686,application:INFO:Data updated sucessfully into the database
+2024-02-15 10:25:00,702,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:25:00] "PUT /update_employee/5 HTTP/1.1" 200 -
+2024-02-15 10:25:00,708,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:25:00,708,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:25:00] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:26:51,296,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:26:51,296,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:26:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:26:51,312,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:26:51] "[31m[1mDELETE /employee/7 HTTP/1.1[0m" 405 -
+2024-02-15 10:26:51,328,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:26:51,328,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:26:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:27:06,184,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:27:06,185,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:27:06] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:27:22,385,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:27:22,385,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:27:22] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:27:22,396,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:27:22] "[31m[1mDELETE /employee/7 HTTP/1.1[0m" 405 -
+2024-02-15 10:27:22,401,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:27:22,403,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:27:22] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:28:08,016,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:28:08,016,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:28:08] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:28:08,024,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:28:08] "[31m[1mDELETE /employee/7 HTTP/1.1[0m" 405 -
+2024-02-15 10:28:27,059,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:28:27,059,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:28:27] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:28:27,064,application:INFO:User requested a DELETE request for employee-id:8
+2024-02-15 10:28:27,064,application:INFO:Data is not present in the database
+2024-02-15 10:28:27,064,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:28:27] "[33mDELETE /remove_employee/8 HTTP/1.1[0m" 404 -
+2024-02-15 10:28:54,596,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:28:54,596,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:28:54] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:28:54,600,application:INFO:User requested a DELETE request for employee-id:7
+2024-02-15 10:28:54,783,application:INFO:Data deleted sucessfully from the database
+2024-02-15 10:28:54,783,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:28:54] "DELETE /remove_employee/7 HTTP/1.1" 200 -
+2024-02-15 10:28:54,802,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:28:54,802,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:28:54] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:29:06,096,application:INFO:User requested a DELETE request for employee-id:8
+2024-02-15 10:29:06,096,application:INFO:Data is not present in the database
+2024-02-15 10:29:06,096,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:29:06] "[33mDELETE /remove_employee/8 HTTP/1.1[0m" 404 -
+2024-02-15 10:29:20,467,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:29:20,467,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:29:20] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:29:20,474,application:INFO:User requested a DELETE request for employee-id:7
+2024-02-15 10:29:20,474,application:INFO:Data is not present in the database
+2024-02-15 10:29:20,474,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:29:20] "[33mDELETE /remove_employee/7 HTTP/1.1[0m" 404 -
+2024-02-15 10:41:07,884,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,885,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,891,application:INFO:User requested a GET request for employee-id:1 
+2024-02-15 10:41:07,891,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,892,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /employee/1 HTTP/1.1" 200 -
+2024-02-15 10:41:07,896,application:INFO:User requested a GET request for employee-id:1 
+2024-02-15 10:41:07,896,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,896,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /employee/1 HTTP/1.1" 200 -
+2024-02-15 10:41:07,902,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,902,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,907,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,907,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,907,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,907,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,917,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,917,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,923,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,924,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,929,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,929,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,935,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,935,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,939,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,939,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,946,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,946,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,946,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,952,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,955,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,955,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,963,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,963,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,963,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,963,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,972,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,972,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:07,976,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:07,977,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,548,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,548,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,553,application:INFO:User requested a GET request for employee-id:1 
+2024-02-15 10:41:23,554,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,554,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /employee/1 HTTP/1.1" 200 -
+2024-02-15 10:41:23,559,application:INFO:User requested a GET request for employee-id:1 
+2024-02-15 10:41:23,559,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,559,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /employee/1 HTTP/1.1" 200 -
+2024-02-15 10:41:23,562,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,562,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,570,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,570,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,576,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,576,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,576,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,576,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,588,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,588,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,591,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,591,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,597,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,597,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,604,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,605,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,606,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,606,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,615,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,615,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,621,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,621,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,626,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,626,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,632,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,632,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,637,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,637,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,642,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:41:23,642,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:41:23,648,application:INFO:User requested a GET request for employee-id:99999 
+2024-02-15 10:41:23,648,application:INFO:Employee not found in the database
+2024-02-15 10:41:23,648,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:41:23] "[33mGET /employee/99999 HTTP/1.1[0m" 404 -
+2024-02-15 10:42:03,928,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,928,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:03,937,application:INFO:User requested a GET request for employee-id:1 
+2024-02-15 10:42:03,937,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,937,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /employee/1 HTTP/1.1" 200 -
+2024-02-15 10:42:03,937,application:INFO:User requested a GET request for employee-id:1 
+2024-02-15 10:42:03,937,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,937,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /employee/1 HTTP/1.1" 200 -
+2024-02-15 10:42:03,944,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,944,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:03,944,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,944,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:03,944,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,944,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:03,963,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,963,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:03,971,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,971,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:03,971,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,971,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:03,971,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,971,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:03,990,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,990,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:03,990,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:03,990,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:03] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:04,002,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:04,002,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:04] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:04,004,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:04,004,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:04] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:04,012,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:04,012,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:04] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:04,018,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:04,018,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:04] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:04,023,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:04,023,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:04] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:04,029,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:04,029,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:04] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:04,036,application:INFO:User requested a GET request for employee-id:99999 
+2024-02-15 10:42:04,036,application:INFO:Employee not found in the database
+2024-02-15 10:42:04,037,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:04] "[33mGET /employee/99999 HTTP/1.1[0m" 404 -
+2024-02-15 10:42:04,043,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-15 10:42:04,043,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:04] "[31m[1mPUT /update_employee/7 HTTP/1.1[0m" 415 -
+2024-02-15 10:42:04,051,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:04] "[33mGET / HTTP/1.1[0m" 404 -
+2024-02-15 10:42:51,865,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,865,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,865,application:INFO:User requested a GET request for employee-id:1 
+2024-02-15 10:42:51,865,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,865,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /employee/1 HTTP/1.1" 200 -
+2024-02-15 10:42:51,877,application:INFO:User requested a GET request for employee-id:1 
+2024-02-15 10:42:51,877,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,877,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /employee/1 HTTP/1.1" 200 -
+2024-02-15 10:42:51,883,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,883,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,888,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,888,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,888,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,888,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,899,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,899,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,906,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,906,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,906,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,906,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,906,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,906,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,921,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,922,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,924,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,924,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,924,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,924,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,936,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,936,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,940,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,940,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,945,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,945,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,950,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,951,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,955,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:42:51,955,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:42:51,960,application:INFO:User requested a GET request for employee-id:99999 
+2024-02-15 10:42:51,961,application:INFO:Employee not found in the database
+2024-02-15 10:42:51,961,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "[33mGET /employee/99999 HTTP/1.1[0m" 404 -
+2024-02-15 10:42:51,965,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-15 10:42:51,965,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "[31m[1mPUT /update_employee/7 HTTP/1.1[0m" 415 -
+2024-02-15 10:42:51,971,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "[33mGET / HTTP/1.1[0m" 404 -
