@@ -265,3 +265,631 @@
 2024-02-15 10:42:51,965,application:INFO:User requested a PUT request for employee-id:7 
 2024-02-15 10:42:51,965,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "[31m[1mPUT /update_employee/7 HTTP/1.1[0m" 415 -
 2024-02-15 10:42:51,971,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:42:51] "[33mGET / HTTP/1.1[0m" 404 -
+2024-02-15 10:45:28,220,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:45:28,220,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:45:28] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:45:37,247,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:45:37,248,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:45:37] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:45:40,480,application:INFO:User requested a POST request
+2024-02-15 10:45:40,591,application:INFO:Data put sucessfully into the database
+2024-02-15 10:45:40,591,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:45:40] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-02-15 10:45:43,931,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:45:43,931,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:45:43] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:46:10,145,application:INFO:User requested a DELETE request for employee-id:10
+2024-02-15 10:46:10,145,application:INFO:Data is not present in the database
+2024-02-15 10:46:10,145,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:46:10] "[33mDELETE /remove_employee/10 HTTP/1.1[0m" 404 -
+2024-02-15 10:46:32,037,application:INFO:User requested a DELETE request for employee-id:10
+2024-02-15 10:46:32,037,application:INFO:Data is not present in the database
+2024-02-15 10:46:32,037,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:46:32] "[33mDELETE /remove_employee/10 HTTP/1.1[0m" 404 -
+2024-02-15 10:46:32,043,application:INFO:User requested a DELETE request for employee-id:99999
+2024-02-15 10:46:32,043,application:INFO:Data is not present in the database
+2024-02-15 10:46:32,043,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:46:32] "[33mDELETE /remove_employee/99999 HTTP/1.1[0m" 404 -
+2024-02-15 10:46:32,050,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:46:32] "[33mPUT /remove_employee HTTP/1.1[0m" 404 -
+2024-02-15 10:47:37,351,application:INFO:User requested a DELETE request for employee-id:10
+2024-02-15 10:47:37,352,application:INFO:Data is not present in the database
+2024-02-15 10:47:37,352,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:47:37] "[33mDELETE /remove_employee/10 HTTP/1.1[0m" 404 -
+2024-02-15 10:47:37,358,application:INFO:User requested a DELETE request for employee-id:99999
+2024-02-15 10:47:37,358,application:INFO:Data is not present in the database
+2024-02-15 10:47:37,358,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:47:37] "[33mDELETE /remove_employee/99999 HTTP/1.1[0m" 404 -
+2024-02-15 10:47:37,364,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:47:37] "[33mPUT /remove_employee HTTP/1.1[0m" 404 -
+2024-02-15 10:47:44,504,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:47:44,505,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:47:44] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 10:48:02,212,application:INFO:User requested a DELETE request for employee-id:7
+2024-02-15 10:48:02,517,application:INFO:Data deleted sucessfully from the database
+2024-02-15 10:48:02,531,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:48:02] "DELETE /remove_employee/7 HTTP/1.1" 200 -
+2024-02-15 10:48:02,533,application:INFO:User requested a DELETE request for employee-id:10
+2024-02-15 10:48:02,549,application:INFO:Data is not present in the database
+2024-02-15 10:48:02,550,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:48:02] "[33mDELETE /remove_employee/10 HTTP/1.1[0m" 404 -
+2024-02-15 10:48:02,557,application:INFO:User requested a DELETE request for employee-id:99999
+2024-02-15 10:48:02,557,application:INFO:Data is not present in the database
+2024-02-15 10:48:02,557,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:48:02] "[33mDELETE /remove_employee/99999 HTTP/1.1[0m" 404 -
+2024-02-15 10:48:02,567,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:48:02] "[33mPUT /remove_employee HTTP/1.1[0m" 404 -
+2024-02-15 10:48:07,332,application:INFO:Data fetched sucessfully from the database
+2024-02-15 10:48:07,332,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 10:48:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 11:00:13,329,application:INFO:User requested a POST request
+2024-02-15 11:00:13,329,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:00:13] "[31m[1mPOST /create_employee HTTP/1.1[0m" 400 -
+2024-02-15 11:00:13,342,application:INFO:User requested a POST request
+2024-02-15 11:00:13,342,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:00:13] "[31m[1mPOST /create_employee HTTP/1.1[0m" 400 -
+2024-02-15 11:00:36,208,application:INFO:User requested a POST request
+2024-02-15 11:00:36,215,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:00:36] "[31m[1mPOST /create_employee HTTP/1.1[0m" 400 -
+2024-02-15 11:00:36,220,application:INFO:User requested a POST request
+2024-02-15 11:00:36,220,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:00:36] "[31m[1mPOST /create_employee HTTP/1.1[0m" 400 -
+2024-02-15 11:01:19,762,application:INFO:Data fetched sucessfully from the database
+2024-02-15 11:01:19,762,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:01:19] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 11:01:46,717,application:INFO:User requested a POST request
+2024-02-15 11:01:47,018,application:INFO:Data put sucessfully into the database
+2024-02-15 11:01:47,033,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:01:47] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-02-15 11:01:47,049,application:INFO:User requested a POST request
+2024-02-15 11:01:47,133,application:INFO:Data put sucessfully into the database
+2024-02-15 11:01:47,135,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:01:47] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-02-15 11:01:47,140,application:INFO:User requested a POST request
+2024-02-15 11:01:47,214,application:INFO:Data put sucessfully into the database
+2024-02-15 11:01:47,214,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:01:47] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-02-15 11:01:47,221,application:INFO:User requested a POST request
+2024-02-15 11:01:47,314,application:INFO:Data put sucessfully into the database
+2024-02-15 11:01:47,314,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:01:47] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-02-15 11:01:47,322,application:INFO:User requested a POST request
+2024-02-15 11:01:47,322,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:01:47] "[31m[1mPOST /create_employee HTTP/1.1[0m" 400 -
+2024-02-15 11:01:47,327,application:INFO:User requested a POST request
+2024-02-15 11:01:47,328,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:01:47] "[31m[1mPOST /create_employee HTTP/1.1[0m" 400 -
+2024-02-15 11:01:57,043,application:INFO:Data fetched sucessfully from the database
+2024-02-15 11:01:57,043,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:01:57] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 11:02:21,170,application:INFO:User requested a DELETE request for employee-id:10
+2024-02-15 11:02:21,309,application:INFO:Data deleted sucessfully from the database
+2024-02-15 11:02:21,310,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:02:21] "DELETE /remove_employee/10 HTTP/1.1" 200 -
+2024-02-15 11:02:24,850,application:INFO:User requested a DELETE request for employee-id:19
+2024-02-15 11:02:24,851,application:INFO:Data is not present in the database
+2024-02-15 11:02:24,851,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:02:24] "[33mDELETE /remove_employee/19 HTTP/1.1[0m" 404 -
+2024-02-15 11:02:27,701,application:INFO:User requested a DELETE request for employee-id:9
+2024-02-15 11:02:27,799,application:INFO:Data deleted sucessfully from the database
+2024-02-15 11:02:27,799,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:02:27] "DELETE /remove_employee/9 HTTP/1.1" 200 -
+2024-02-15 11:02:32,000,application:INFO:User requested a DELETE request for employee-id:8
+2024-02-15 11:02:32,451,application:INFO:Data deleted sucessfully from the database
+2024-02-15 11:02:32,452,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:02:32] "DELETE /remove_employee/8 HTTP/1.1" 200 -
+2024-02-15 11:02:36,027,application:INFO:Data fetched sucessfully from the database
+2024-02-15 11:02:36,028,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:02:36] "GET /list_employees HTTP/1.1" 200 -
+2024-02-15 11:24:32,561,application:INFO:Data fetched sucessfully from the database
+2024-02-15 11:24:32,561,werkzeug:INFO:127.0.0.1 - - [15/Feb/2024 11:24:32] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:33:13,405,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-19 10:33:13,420,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-02-19 10:33:13,452,werkzeug:INFO: * Restarting with stat
+2024-02-19 10:33:13,951,werkzeug:WARNING: * Debugger is active!
+2024-02-19 10:33:13,966,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 10:33:23,434,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:33:23,435,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:33:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:34:12,170,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:34:12,170,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:34:12] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:35:00,376,application:INFO:User requested a PATCH request for employee-id:7
+2024-02-19 10:35:00,376,root:ERROR:An error occurred while updating employee data
+Traceback (most recent call last):
+  File "C:\Users\107497\Desktop\Python\changes\Rest-API-without-authentication\api_project\application.py", line 119, in patch
+    existing_emp[1] = value
+    ~~~~~~~~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+2024-02-19 10:35:00,379,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:35:00] "[35m[1mPATCH /update_employee/7 HTTP/1.1[0m" 500 -
+2024-02-19 10:37:11,286,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 10:37:11,343,werkzeug:INFO: * Restarting with stat
+2024-02-19 10:37:12,034,werkzeug:WARNING: * Debugger is active!
+2024-02-19 10:37:12,047,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 10:37:17,329,application:INFO:User requested a PATCH request for employee-id:7
+2024-02-19 10:37:17,344,application:INFO:(7, 'Karthik', 'kundapura-street', 'udupi', '344344')
+2024-02-19 10:37:17,344,root:ERROR:An error occurred while updating employee data
+Traceback (most recent call last):
+  File "C:\Users\107497\Desktop\Python\changes\Rest-API-without-authentication\api_project\application.py", line 119, in patch
+    existing_emp[1] = value
+    ~~~~~~~~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+2024-02-19 10:37:17,347,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:37:17] "[35m[1mPATCH /update_employee/7 HTTP/1.1[0m" 500 -
+2024-02-19 10:38:54,877,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 10:38:54,922,werkzeug:INFO: * Restarting with stat
+2024-02-19 10:38:55,417,werkzeug:WARNING: * Debugger is active!
+2024-02-19 10:38:55,417,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 10:39:02,527,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 10:39:02,543,werkzeug:INFO: * Restarting with stat
+2024-02-19 10:39:03,026,werkzeug:WARNING: * Debugger is active!
+2024-02-19 10:39:03,042,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 10:39:13,578,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:39:13,578,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:39:13] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:39:16,493,application:INFO:User requested a PUT request for employee-id:6 
+2024-02-19 10:39:17,740,application:INFO:Data updated sucessfully into the database
+2024-02-19 10:39:17,740,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:39:17] "PUT /update_employee/6 HTTP/1.1" 200 -
+2024-02-19 10:39:23,734,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:39:23,734,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:39:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:39:30,822,application:INFO:User requested a PATCH request for employee-id:7
+2024-02-19 10:39:30,823,application:INFO:(7, 'Karthik', 'kundapura-street', 'udupi', '344344')
+2024-02-19 10:39:31,938,application:INFO:Employee data updated successfully
+2024-02-19 10:39:31,939,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:39:31] "PATCH /update_employee/7 HTTP/1.1" 200 -
+2024-02-19 10:39:39,323,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:39:39,323,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:39:39] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:43:27,150,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 10:43:27,197,werkzeug:INFO: * Restarting with stat
+2024-02-19 10:43:27,761,werkzeug:WARNING: * Debugger is active!
+2024-02-19 10:43:27,775,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 10:45:39,680,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 10:45:40,550,werkzeug:INFO: * Restarting with stat
+2024-02-19 10:45:41,076,werkzeug:WARNING: * Debugger is active!
+2024-02-19 10:45:41,086,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 10:48:11,195,application:INFO:User requested a PATCH request for employee-id:7
+2024-02-19 10:48:12,046,application:INFO:Employee data updated successfully
+2024-02-19 10:48:12,053,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:48:12] "PATCH /update_employee/7 HTTP/1.1" 200 -
+2024-02-19 10:48:18,308,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:48:18,308,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:48:18] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:49:24,602,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-19 10:49:24,602,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:49:24] "[31m[1mPUT /update_employee/7 HTTP/1.1[0m" 400 -
+2024-02-19 10:50:19,514,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 10:50:19,583,werkzeug:INFO: * Restarting with stat
+2024-02-19 10:50:20,580,werkzeug:WARNING: * Debugger is active!
+2024-02-19 10:50:20,612,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 10:50:28,430,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-19 10:50:28,579,application:INFO:Data updated sucessfully into the database
+2024-02-19 10:50:28,582,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:50:28] "PUT /update_employee/7 HTTP/1.1" 200 -
+2024-02-19 10:50:41,037,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-19 10:50:41,415,application:INFO:Data updated sucessfully into the database
+2024-02-19 10:50:41,416,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:50:41] "PUT /update_employee/7 HTTP/1.1" 200 -
+2024-02-19 10:50:46,854,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:50:46,854,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:50:46] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:57:00,630,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-19 10:57:00,631,application:INFO:Data updated sucessfully into the database
+2024-02-19 10:57:00,632,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:57:00] "PUT /update_employee/7 HTTP/1.1" 200 -
+2024-02-19 10:57:02,531,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-19 10:57:02,535,application:INFO:Data updated sucessfully into the database
+2024-02-19 10:57:02,536,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:57:02] "PUT /update_employee/7 HTTP/1.1" 200 -
+2024-02-19 10:57:04,866,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:57:04,866,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:57:04] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:57:05,684,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:57:05,685,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:57:05] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:57:06,456,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:57:06,457,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:57:06] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:57:07,404,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:57:07,405,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:57:07] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 10:57:19,144,application:INFO:User requested a PATCH request for employee-id:7
+2024-02-19 10:57:19,145,application:INFO:Employee data updated successfully
+2024-02-19 10:57:19,147,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:57:19] "PATCH /update_employee/7 HTTP/1.1" 200 -
+2024-02-19 10:57:19,900,application:INFO:User requested a PATCH request for employee-id:7
+2024-02-19 10:57:19,901,application:INFO:Employee data updated successfully
+2024-02-19 10:57:19,901,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:57:19] "PATCH /update_employee/7 HTTP/1.1" 200 -
+2024-02-19 10:57:21,085,application:INFO:User requested a PATCH request for employee-id:7
+2024-02-19 10:57:21,086,application:INFO:Employee data updated successfully
+2024-02-19 10:57:21,086,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:57:21] "PATCH /update_employee/7 HTTP/1.1" 200 -
+2024-02-19 10:57:23,541,application:INFO:Data fetched sucessfully from the database
+2024-02-19 10:57:23,542,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 10:57:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:00:14,792,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:00:14,842,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:00:15,441,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:00:15,588,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:00:23,001,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:00:23,037,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:00:23,707,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:00:23,718,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:00:26,492,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 11:00:26,492,application:INFO:{'id': 7, 'name': 'Jos'}
+2024-02-19 11:00:26,495,root:ERROR:An error occurred while updating employee data
+Traceback (most recent call last):
+  File "C:\Users\107497\Desktop\Python\changes\Rest-API-without-authentication\api_project\application.py", line 109, in patch
+    cursor.execute('SELECT * FROM emp WHERE id = ?', (emp_id,))
+                                                      ^^^^^^
+NameError: name 'emp_id' is not defined
+2024-02-19 11:00:26,496,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:00:26] "[35m[1mPATCH /update_employee HTTP/1.1[0m" 500 -
+2024-02-19 11:01:16,509,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:01:16,547,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:01:17,396,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:01:17,410,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:01:23,352,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:01:23,406,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:01:24,160,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:01:24,173,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:01:25,251,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 11:01:25,291,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:01:25] "[35m[1mPATCH /update_employee HTTP/1.1[0m" 500 -
+2024-02-19 11:02:28,827,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:02:28,870,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:02:29,365,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:02:29,377,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:02:32,493,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:02:32,528,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:02:33,009,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:02:33,025,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:02:52,727,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-19 11:02:52,727,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-02-19 11:02:52,739,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:02:53,256,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:02:53,256,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:03:00,817,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:03:00,817,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:03:00] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:03:08,717,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 11:03:08,717,application:INFO:{'id': 7, 'name': 'Josline'}
+2024-02-19 11:03:08,741,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:03:08] "[35m[1mPATCH /update_employee HTTP/1.1[0m" 500 -
+2024-02-19 11:04:15,421,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:04:15,457,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:04:16,023,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:04:16,034,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:06:32,803,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:06:32,848,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:06:33,439,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:06:33,445,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:06:59,664,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-19 11:06:59,664,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-02-19 11:06:59,664,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:07:01,104,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:07:01,119,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:10:08,377,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 11:10:08,378,application:INFO:{'id': 7, 'name': 'Josline'}
+2024-02-19 11:10:08,971,application:INFO:Employee data updated successfully
+2024-02-19 11:10:08,972,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:10:08] "PATCH /update_employee HTTP/1.1" 200 -
+2024-02-19 11:10:12,764,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:10:12,764,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:10:12] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:10:19,482,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 11:10:19,483,application:INFO:{'id': 7, 'name': 'Josline'}
+2024-02-19 11:10:19,484,application:INFO:Employee data updated successfully
+2024-02-19 11:10:19,484,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:10:19] "PATCH /update_employee HTTP/1.1" 200 -
+2024-02-19 11:10:23,104,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:10:23,104,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:10:23] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:10:27,927,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 11:10:27,927,application:INFO:{'id': 7, 'name': 'Josline'}
+2024-02-19 11:10:27,929,application:INFO:Employee data updated successfully
+2024-02-19 11:10:27,929,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:10:27] "PATCH /update_employee HTTP/1.1" 200 -
+2024-02-19 11:10:31,127,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:10:31,128,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:10:31] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:13:21,685,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:13:21,686,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:13:21] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:13:27,542,application:INFO:User requested a PUT request for employee-id:8 
+2024-02-19 11:13:27,543,application:INFO:Data is not present in the database
+2024-02-19 11:13:27,543,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:13:27] "[33mPUT /update_employee/8 HTTP/1.1[0m" 404 -
+2024-02-19 11:13:45,494,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:13:45,527,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:13:46,051,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:13:46,061,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:14:06,017,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:14:06,057,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:14:06,586,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:14:06,603,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:14:11,730,application:INFO:User requested a PUT request for employee-id:8 
+2024-02-19 11:14:11,730,root:ERROR:Exception Information
+Traceback (most recent call last):
+  File "C:\Users\107497\Desktop\Python\changes\Rest-API-without-authentication\api_project\application.py", line 85, in putdata
+    new_name = data.get('name', existing_emp[1])
+                                ~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2024-02-19 11:14:11,746,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:14:11] "[35m[1mPUT /update_employee/8 HTTP/1.1[0m" 500 -
+2024-02-19 11:14:18,168,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:14:18,169,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:14:18] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:14:30,648,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:14:30,712,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:14:31,323,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:14:31,336,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:17:10,795,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:17:10,842,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:17:11,462,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:17:11,468,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:17:12,985,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:17:12,985,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:17:12] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:17:21,300,application:INFO:User requested a PUT request for employee-id:8 
+2024-02-19 11:17:21,301,application:INFO:Data is not present in the database
+2024-02-19 11:17:21,301,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:17:21] "[33mPUT /update_employee/8 HTTP/1.1[0m" 404 -
+2024-02-19 11:17:30,676,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:17:30,676,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:17:30] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:17:48,334,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-19 11:17:48,335,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:17:48] "[31m[1mPUT /update_employee/7 HTTP/1.1[0m" 400 -
+2024-02-19 11:17:55,575,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-19 11:17:55,575,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:17:55] "[31m[1mPUT /update_employee/7 HTTP/1.1[0m" 400 -
+2024-02-19 11:18:37,309,application:INFO:User requested a PUT request for employee-id:7 
+2024-02-19 11:18:38,182,application:INFO:Data updated sucessfully into the database
+2024-02-19 11:18:38,183,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:18:38] "PUT /update_employee/7 HTTP/1.1" 200 -
+2024-02-19 11:18:41,890,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:18:41,891,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:18:41] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:18:57,193,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 11:18:57,195,application:INFO:{'id': 7, 'name': 'Josline'}
+2024-02-19 11:18:57,680,application:INFO:Employee data updated successfully
+2024-02-19 11:18:57,681,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:18:57] "PATCH /update_employee HTTP/1.1" 200 -
+2024-02-19 11:18:58,954,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 11:18:58,954,application:INFO:{'id': 7, 'name': 'Josline'}
+2024-02-19 11:18:58,955,application:INFO:Employee data updated successfully
+2024-02-19 11:18:58,955,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:18:58] "PATCH /update_employee HTTP/1.1" 200 -
+2024-02-19 11:18:59,802,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 11:18:59,802,application:INFO:{'id': 7, 'name': 'Josline'}
+2024-02-19 11:18:59,803,application:INFO:Employee data updated successfully
+2024-02-19 11:18:59,803,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:18:59] "PATCH /update_employee HTTP/1.1" 200 -
+2024-02-19 11:19:00,851,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 11:19:00,851,application:INFO:{'id': 7, 'name': 'Josline'}
+2024-02-19 11:19:00,852,application:INFO:Employee data updated successfully
+2024-02-19 11:19:00,852,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:19:00] "PATCH /update_employee HTTP/1.1" 200 -
+2024-02-19 11:20:37,434,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:20:37,469,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:20:38,015,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:20:38,026,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:20:57,593,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:20:57,594,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:20:57] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:21:29,569,application:INFO:User requested a PUT request
+2024-02-19 11:21:29,781,application:INFO:Data updated sucessfully into the database
+2024-02-19 11:21:29,783,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:21:29] "PUT /update_employee HTTP/1.1" 200 -
+2024-02-19 11:21:33,361,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:21:33,361,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:21:33] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:21:41,446,application:INFO:User requested a PUT request
+2024-02-19 11:21:41,448,application:INFO:Data is not present in the database
+2024-02-19 11:21:41,449,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:21:41] "[33mPUT /update_employee HTTP/1.1[0m" 404 -
+2024-02-19 11:21:57,788,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:21:57,823,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:21:58,414,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:21:58,414,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:22:30,488,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:22:30,541,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:22:31,202,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:22:31,222,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:22:38,106,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:22:38,106,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:22:38] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:22:51,301,application:INFO:User requested a PUT request
+2024-02-19 11:22:52,568,application:INFO:Data updated sucessfully into the database
+2024-02-19 11:22:52,569,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:22:52] "PUT /update_employee HTTP/1.1" 200 -
+2024-02-19 11:22:56,905,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:22:56,905,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:22:56] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:23:03,962,application:INFO:User requested a PUT request
+2024-02-19 11:23:03,963,root:ERROR:Exception Information
+Traceback (most recent call last):
+  File "C:\Users\107497\Desktop\Python\changes\Rest-API-without-authentication\api_project\application.py", line 86, in putdata
+    new_id=data.get('id',existing_emp[0])
+                         ~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2024-02-19 11:23:03,983,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:23:03] "[35m[1mPUT /update_employee HTTP/1.1[0m" 500 -
+2024-02-19 11:25:57,864,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:25:57,902,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:25:58,445,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:25:58,452,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:26:05,575,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:26:05,607,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:26:06,156,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:26:06,167,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:26:30,342,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:26:30,373,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:26:30,891,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:26:30,899,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:27:18,547,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:27:18,586,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:27:19,083,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:27:19,095,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:29:38,777,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:29:38,811,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:29:39,317,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:29:39,329,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:30:07,538,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:30:29,582,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-19 11:30:29,582,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-02-19 11:30:29,590,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:30:30,057,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:30:30,072,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:30:37,123,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:30:37,123,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:30:37] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:30:45,274,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:30:45,275,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:30:45] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:30:57,490,application:INFO:User requested a PUT request
+2024-02-19 11:30:57,611,application:INFO:Data updated sucessfully into the database
+2024-02-19 11:30:57,613,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:30:57] "PUT /update_employee HTTP/1.1" 200 -
+2024-02-19 11:31:01,592,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:31:01,594,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:31:01] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:31:10,842,application:INFO:User requested a PUT request
+2024-02-19 11:31:10,843,root:ERROR:Exception Information
+Traceback (most recent call last):
+  File "C:\Users\107497\Desktop\Python\changes\Rest-API-without-authentication\api_project\application.py", line 82, in putdata
+    new_id=data.get('id',existing_emp[0])
+                         ~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2024-02-19 11:31:10,878,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:31:10] "[35m[1mPUT /update_employee HTTP/1.1[0m" 500 -
+2024-02-19 11:33:08,987,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 11:33:09,041,werkzeug:INFO: * Restarting with stat
+2024-02-19 11:33:09,738,werkzeug:WARNING: * Debugger is active!
+2024-02-19 11:33:09,751,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 11:33:12,786,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:33:12,786,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:33:12] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:33:29,755,application:INFO:User requested a PUT request
+2024-02-19 11:33:29,838,application:INFO:Data updated sucessfully into the database
+2024-02-19 11:33:29,841,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:33:29] "PUT /update_employee HTTP/1.1" 200 -
+2024-02-19 11:33:33,716,application:INFO:Data fetched sucessfully from the database
+2024-02-19 11:33:33,718,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:33:33] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 11:33:44,045,application:INFO:User requested a PUT request
+2024-02-19 11:33:44,046,root:ERROR:Exception Information
+Traceback (most recent call last):
+  File "C:\Users\107497\Desktop\Python\changes\Rest-API-without-authentication\api_project\application.py", line 82, in putdata
+    new_id=data.get('id',existing_emp[0])
+                         ~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2024-02-19 11:33:44,075,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 11:33:44] "[35m[1mPUT /update_employee HTTP/1.1[0m" 500 -
+2024-02-19 12:05:55,551,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 12:05:55,578,werkzeug:INFO: * Restarting with stat
+2024-02-19 12:05:56,602,werkzeug:WARNING: * Debugger is active!
+2024-02-19 12:05:56,608,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 12:06:08,234,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-19 12:06:08,234,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-02-19 12:06:08,242,werkzeug:INFO: * Restarting with stat
+2024-02-19 12:06:08,812,werkzeug:WARNING: * Debugger is active!
+2024-02-19 12:06:08,828,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 12:06:14,607,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:06:14,607,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:06:14] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:06:31,425,application:INFO:User requested a PUT request
+2024-02-19 12:06:31,567,application:INFO:Employee data updated successfully
+2024-02-19 12:06:31,568,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:06:31] "PUT /update_employee HTTP/1.1" 200 -
+2024-02-19 12:06:35,071,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:06:35,072,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:06:35] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:06:42,686,application:INFO:User requested a PUT request
+2024-02-19 12:06:43,155,application:INFO:New employee created successfully
+2024-02-19 12:06:43,156,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:06:43] "[35m[1mPUT /update_employee HTTP/1.1[0m" 201 -
+2024-02-19 12:06:46,722,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:06:46,722,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:06:46] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:07:05,488,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 12:07:05,488,application:INFO:{'id': 8, 'name': 'Josline'}
+2024-02-19 12:07:06,114,application:INFO:Employee data updated successfully
+2024-02-19 12:07:06,114,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:07:06] "PATCH /update_employee HTTP/1.1" 200 -
+2024-02-19 12:07:10,718,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 12:07:10,718,application:INFO:{'id': 9, 'name': 'Josline'}
+2024-02-19 12:07:10,719,application:INFO:Employee not found in the database
+2024-02-19 12:07:10,720,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:07:10] "[33mPATCH /update_employee HTTP/1.1[0m" 404 -
+2024-02-19 12:19:38,074,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 12:19:38,106,werkzeug:INFO: * Restarting with stat
+2024-02-19 12:19:38,671,werkzeug:WARNING: * Debugger is active!
+2024-02-19 12:19:38,679,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 12:19:45,640,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:19:45,641,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:19:45] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:19:57,414,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:19:57,415,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:19:57] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:20:08,825,application:INFO:User requested a PUT request
+2024-02-19 12:20:09,386,application:INFO:Employee data updated successfully
+2024-02-19 12:20:09,387,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:20:09] "PUT /update_employee HTTP/1.1" 200 -
+2024-02-19 12:20:13,470,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:20:13,470,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:20:13] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:20:26,387,application:INFO:User requested a PUT request
+2024-02-19 12:20:26,741,application:INFO:Employee data updated successfully
+2024-02-19 12:20:26,741,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:20:26] "PUT /update_employee HTTP/1.1" 200 -
+2024-02-19 12:20:33,292,application:INFO:User requested a PUT request
+2024-02-19 12:20:33,927,application:INFO:Employee data updated successfully
+2024-02-19 12:20:33,928,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:20:33] "PUT /update_employee HTTP/1.1" 200 -
+2024-02-19 12:20:37,345,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:20:37,345,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:20:37] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:20:53,578,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 12:20:53,622,werkzeug:INFO: * Restarting with stat
+2024-02-19 12:20:54,117,werkzeug:WARNING: * Debugger is active!
+2024-02-19 12:20:54,132,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 12:21:46,207,application:INFO:User requested a PUT request
+2024-02-19 12:21:46,421,application:INFO:Employee data updated successfully
+2024-02-19 12:21:46,422,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:21:46] "PUT /update_employee HTTP/1.1" 200 -
+2024-02-19 12:21:49,798,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:21:49,799,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:21:49] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:22:17,014,application:INFO:User requested a DELETE request for employee-id:8
+2024-02-19 12:22:17,103,application:INFO:Data deleted sucessfully from the database
+2024-02-19 12:22:17,104,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:22:17] "DELETE /remove_employee/8 HTTP/1.1" 200 -
+2024-02-19 12:22:21,939,application:INFO:User requested a DELETE request for employee-id:7
+2024-02-19 12:22:22,644,application:INFO:Data deleted sucessfully from the database
+2024-02-19 12:22:22,645,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:22:22] "DELETE /remove_employee/7 HTTP/1.1" 200 -
+2024-02-19 12:22:26,269,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:22:26,269,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:22:26] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:23:27,829,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 12:23:27,829,application:INFO:{'id': 9, 'name': 'Josline'}
+2024-02-19 12:23:27,830,application:INFO:Employee not found in the database
+2024-02-19 12:23:27,830,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:23:27] "[33mPATCH /update_employee HTTP/1.1[0m" 404 -
+2024-02-19 12:23:47,045,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 12:23:47,045,application:INFO:{'id': 6, 'name': 'Raj'}
+2024-02-19 12:23:47,169,application:INFO:Employee data updated successfully
+2024-02-19 12:23:47,171,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:23:47] "PATCH /update_employee HTTP/1.1" 200 -
+2024-02-19 12:23:51,566,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:23:51,567,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:23:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:24:08,079,application:INFO:User requested a PATCH request for employee-id:
+2024-02-19 12:24:08,079,application:INFO:{'id': 7, 'name': 'Raj'}
+2024-02-19 12:24:08,079,application:INFO:Employee not found in the database
+2024-02-19 12:24:08,081,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:24:08] "[33mPATCH /update_employee HTTP/1.1[0m" 404 -
+2024-02-19 12:33:54,178,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-19 12:33:54,229,werkzeug:INFO: * Restarting with stat
+2024-02-19 12:34:55,673,werkzeug:WARNING: * Debugger is active!
+2024-02-19 12:34:55,692,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 12:34:55,718,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-19 12:34:55,718,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-02-19 12:34:55,734,werkzeug:INFO: * Restarting with stat
+2024-02-19 12:34:56,259,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:34:56,262,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:34:56] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:34:56,262,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:34:56,262,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:34:56] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:34:56,273,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:34:56,273,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:34:56] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:35:02,093,werkzeug:WARNING: * Debugger is active!
+2024-02-19 12:35:02,100,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-19 12:35:37,908,application:INFO:User requested a PUT request
+2024-02-19 12:35:48,364,application:INFO:Employee data updated successfully
+2024-02-19 12:35:48,365,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:35:48] "PUT /update_employee/6 HTTP/1.1" 200 -
+2024-02-19 12:35:56,971,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:35:56,973,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:35:56] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:36:06,339,application:INFO:User requested a PUT request
+2024-02-19 12:36:10,589,application:INFO:New employee created successfully
+2024-02-19 12:36:10,589,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:36:10] "[35m[1mPUT /update_employee/7 HTTP/1.1[0m" 201 -
+2024-02-19 12:36:13,684,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:36:13,685,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:36:13] "GET /list_employees HTTP/1.1" 200 -
+2024-02-19 12:39:13,515,application:INFO:Data fetched sucessfully from the database
+2024-02-19 12:39:13,516,werkzeug:INFO:127.0.0.1 - - [19/Feb/2024 12:39:13] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:30:18,756,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-20 11:30:18,772,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-02-20 11:30:18,804,werkzeug:INFO: * Restarting with stat
+2024-02-20 11:30:19,440,werkzeug:WARNING: * Debugger is active!
+2024-02-20 11:30:19,455,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-20 11:30:32,091,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:30:32,091,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:30:32] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:30:47,652,application:INFO:User requested a DELETE request for employee-id:7
+2024-02-20 11:30:47,734,application:INFO:Data deleted sucessfully from the database
+2024-02-20 11:30:47,735,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:30:47] "DELETE /remove_employee/7 HTTP/1.1" 200 -
+2024-02-20 11:30:50,653,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:30:50,654,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:30:50] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:31:33,118,application:INFO:User requested a POST request
+2024-02-20 11:31:33,231,application:INFO:Data put sucessfully into the database
+2024-02-20 11:31:33,232,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:31:33] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-02-20 11:31:36,375,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:31:36,376,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:31:36] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:32:16,910,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-20 11:32:16,944,werkzeug:INFO: * Restarting with stat
+2024-02-20 11:32:17,894,werkzeug:WARNING: * Debugger is active!
+2024-02-20 11:32:17,959,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-20 11:33:31,909,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:33:31] "[33mPOST /insert_sham_using_rams_address HTTP/1.1[0m" 404 -
+2024-02-20 11:34:45,830,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-20 11:34:45,859,werkzeug:INFO: * Restarting with stat
+2024-02-20 11:34:46,461,werkzeug:WARNING: * Debugger is active!
+2024-02-20 11:34:46,463,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-20 11:34:51,672,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:34:51] "[35m[1mPOST /insert_sham_using_rams_address HTTP/1.1[0m" 500 -
+2024-02-20 11:35:26,336,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-20 11:35:26,364,werkzeug:INFO: * Restarting with stat
+2024-02-20 11:35:27,020,werkzeug:WARNING: * Debugger is active!
+2024-02-20 11:35:27,027,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-20 11:35:31,291,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:35:31,291,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:35:31] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:35:37,366,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:35:37] "POST /insert_sham_using_rams_address HTTP/1.1" 200 -
+2024-02-20 11:35:41,688,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:35:41,690,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:35:41] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:36:03,546,application:INFO:User requested a DELETE request for employee-id:9
+2024-02-20 11:36:04,220,application:INFO:Data deleted sucessfully from the database
+2024-02-20 11:36:04,221,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:36:04] "DELETE /remove_employee/9 HTTP/1.1" 200 -
+2024-02-20 11:36:10,442,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:36:10,446,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:36:10] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:36:19,955,application:INFO:User requested a DELETE request for employee-id:8
+2024-02-20 11:36:21,098,application:INFO:Data deleted sucessfully from the database
+2024-02-20 11:36:21,099,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:36:21] "DELETE /remove_employee/8 HTTP/1.1" 200 -
+2024-02-20 11:36:25,051,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:36:25,051,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:36:25] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:36:50,292,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:36:50,293,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:36:50] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:36:55,027,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:36:55] "[33mPOST /insert_using_rams_address HTTP/1.1[0m" 404 -
+2024-02-20 11:37:09,558,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-20 11:37:09,633,werkzeug:INFO: * Restarting with stat
+2024-02-20 11:37:10,502,werkzeug:WARNING: * Debugger is active!
+2024-02-20 11:37:10,517,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-02-20 11:37:12,488,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:37:12] "POST /insert_using_rams_address HTTP/1.1" 200 -
+2024-02-20 11:37:16,475,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:37:16,475,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:37:16] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:37:49,850,application:INFO:User requested a DELETE request for employee-id:9
+2024-02-20 11:37:50,227,application:INFO:Data deleted sucessfully from the database
+2024-02-20 11:37:50,229,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:37:50] "DELETE /remove_employee/9 HTTP/1.1" 200 -
+2024-02-20 11:37:53,951,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:37:53,952,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:37:53] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:38:14,335,application:INFO:User requested a DELETE request for employee-id:9
+2024-02-20 11:38:14,339,application:INFO:Data is not present in the database
+2024-02-20 11:38:14,339,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:38:14] "[33mDELETE /remove_employee/9 HTTP/1.1[0m" 404 -
+2024-02-20 11:38:17,702,application:INFO:User requested a DELETE request for employee-id:8
+2024-02-20 11:38:17,822,application:INFO:Data deleted sucessfully from the database
+2024-02-20 11:38:17,824,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:38:17] "DELETE /remove_employee/8 HTTP/1.1" 200 -
+2024-02-20 11:38:21,268,application:INFO:User requested a DELETE request for employee-id:7
+2024-02-20 11:38:22,399,application:INFO:Data deleted sucessfully from the database
+2024-02-20 11:38:22,401,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:38:22] "DELETE /remove_employee/7 HTTP/1.1" 200 -
+2024-02-20 11:38:46,344,application:INFO:User requested a DELETE request for employee-id:7
+2024-02-20 11:38:46,344,application:INFO:Data is not present in the database
+2024-02-20 11:38:46,344,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:38:46] "[33mDELETE /remove_employee/7 HTTP/1.1[0m" 404 -
+2024-02-20 11:38:51,244,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:38:51,244,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:38:51] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:39:07,097,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:39:07] "POST /insert_using_rams_address HTTP/1.1" 200 -
+2024-02-20 11:39:11,055,application:INFO:Data fetched sucessfully from the database
+2024-02-20 11:39:11,056,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:39:11] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 11:39:22,171,application:INFO:User requested a DELETE request for employee-id:7
+2024-02-20 11:39:22,252,application:INFO:Data deleted sucessfully from the database
+2024-02-20 11:39:22,252,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 11:39:22] "DELETE /remove_employee/7 HTTP/1.1" 200 -
+2024-02-20 12:47:29,408,application:INFO:Data fetched sucessfully from the database
+2024-02-20 12:47:29,411,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 12:47:29] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 12:48:05,959,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 12:48:05] "POST /insert_using_rams_address HTTP/1.1" 200 -
+2024-02-20 12:48:09,465,application:INFO:Data fetched sucessfully from the database
+2024-02-20 12:48:09,477,werkzeug:INFO:127.0.0.1 - - [20/Feb/2024 12:48:09] "GET /list_employees HTTP/1.1" 200 -
+2024-02-20 12:49:29,866,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\changes\\Rest-API-without-authentication\\api_project\\application.py', reloading
+2024-02-20 12:49:29,912,werkzeug:INFO: * Restarting with stat
